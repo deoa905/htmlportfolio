@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: grid;
+      width: 748px;
+      height: 748px;
+      background-color:black;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 10px; 
+    }
+
+    .container > div {
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .white-1{
+    background-color: white !important;
+    grid-column: 2 / 5;
+    }
+
+    .white-2{
+    background-color: white !important;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    }
+
+    .white-3{
+      background-color: white !important;
+      grid-column: 2 / 4;
+      grid-row: 2 / 4;
+    }
+
+
+    .red{
+      background-color:#E72F24 !important;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+
+    .blue {
+      background-color: #004592 !important;
+      grid-column: 4;
+    }
+
+    .yellow {
+      background-color: yellow !important;
+      grid-column: 2 /3;
+      grid-row: 4 /5;
+    }
+
+    .grey{
+      background-color: grey !important;
+      grid-column: 3 / 4;
+      grid-row: 4 / 5;
+    }
+
+    .white-4{
+      background-color: white !important;
+      grid-column: 4 / 5;
+      grid-row: 3 / 5;
+    } 
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+      <div class="red"></div>        
+      <div class="white-1"></div>
+      <div class="white-2"></div>        
+      <div class= "white-3"></div>
+      <div class="blue"></div>
+      <div class="white-4"></div>
+      <div class="yellow"> </div>
+      <div class= "grey"> </div>
+      <div class="white-5"></div>  
+   </div>
+</body>
+
+</html>
